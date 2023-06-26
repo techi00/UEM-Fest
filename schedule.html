@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="icon" type="image/png" href="logo1.png" />
+    <title>TechUtopia,UEM Jaipur</title>
+  </head>
+  <style media="screen">
+  #preloader{
+    background:#000 url(loader.gif) no-repeat center center;
+    height: 100vh;
+    background-size:30%;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+
+  }
+  </style>
+
+  <body>
+    <div id="preloader">
+
+    </div>
+    <div class="container">
+      <div class="navbar">
+        <a href="#" class="logo-link">
+          <img src="logo1.png" alt="Logo" class="logo" />
+        </a>
+
+        <a href="#" class="menu">
+          <div class="menu-line menu-line-1"></div>
+          <div class="menu-line menu-line-2"></div>
+          <div class="menu-line menu-line-3"></div>
+        </a>
+
+        <nav class="nav-list">
+          <a href="index.html" class="nav-link">Home</a>
+          <a href="schedule.html" class="nav-link">Schedule</a>
+          <a href="events.html" class="nav-link">Events</a>
+            <a href="workshop.html" class="nav-link">Workshops</a>
+          <a href="Contact.html" class="nav-link">Contact us</a>
+
+        </nav>
+      </div>
+
+      <button class="page-btn left-btn" style="display:none;">
+        <img src="arrow.png" />
+      </button>
+      <button class="page-btn right-btn" style="display:none;">
+        <img src="arrow.png" />
+      </button>
+
+
+
+      <div class="wrapper">
+        <section class="section-1">
+          <div class="section-wrapper section-1-wrapper2">
+              <h1 class="section-1-heading2">Schedule,TechUtopia 2K23 </h1>
+            <div class="schedule">
+              <a href="#" class="dates">23rd March 2k23</a>
+                <a href="#" class="dates">24th March 2k23</a>
+                  <a href="#" class="dates">25th March 2k23</a>
+            </div>
+          
+
+          </div>
+        </section>
+
+
+
+
+      </div>
+    </div>
+
+    <script type="text/javascript">
+    var loader=document.getElementById("preloader");
+    window.addEventListener("load",function(){
+      loader.style.display="none";
+    })
+
+    </script>
+    <script src="script.js"></script>
+  </body>
+</html>
